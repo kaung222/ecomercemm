@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZoroShop</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/oshop.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+        <!-- nav bar container start -->
+    <div class="container-fluid bg-dark" id="home-page">
+            <nav class="nav navbar px-3">
+                <div class="close" id="close">
+                    <button type="submit"><i class="uil uil-times"></i></button>
+                 </div>
+                <div class="bars text-primary" id="bars"><i class="fa fa-bars"></i></div>
+                <a href="#" class="nav-logo nav-link"><strong>XO<span class="text-danger">RO</span></strong></a>
+                <div class="search text-danger"><i class="fa fa-search"></i></div>
+                <div class="show-nav nav navabr navbar-expand-sm">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="shop.html" class="nav-link active">Shop</a>
+                <a href="invest.html" class="nav-link">Invest</a>
+                <a href="learn.html" class="nav-link">Learn</a>
+                <a href="faqs.html" class="nav-link">FAQs</a>
+                <a href="service.html" class="nav-link">Customer Services</a>
+                <a href="login.html" class="nav-link">Account</a>
+                <a href="#" class="nav-link">About</a>
+            </div>
+            </nav>
+    </div>
+
+          <!-- shop start -->
+    <div class="shop" id="shop">
+        <!-- <div class="left">
+            
+            <div class="filter">
+                <h3 class="all-cats">All Categories</h3>
+               <a href="" class="text-decoration-none">
+                <div class="list nav navbar justify-content-between px-4">
+                    <span class="">Sports</span>
+                    <span><i class="uil uil-angle-right-b" ></i></span>
+                </div>
+               </a>
+               <a href="" class="text-decoration-none">
+               <div class="list nav navbar justify-content-between px-4">
+                   <span class="">Outfits</span>
+                   <span><i class="uil uil-angle-right-b" ></i></span>
+               </div>
+              </a>
+              <a href="" class="text-decoration-none">
+                <div class="list nav navbar justify-content-between px-4">
+                    <span class="">Electronics</span>
+                    <span><i class="uil uil-angle-right-b" ></i></span>
+                </div>
+               </a>
+               <a href="" class="text-decoration-none">
+                <div class="list nav navbar justify-content-between px-4">
+                    <span class="">Gaming</span>
+                    <span><i class="uil uil-angle-right-b" ></i></span>
+                </div>
+               </a>
+               <a href="" class="text-decoration-none">
+                <div class="list nav navbar justify-content-between px-4">
+                    <span class="">Gardening</span>
+                    <span><i class="uil uil-angle-right-b" ></i></span>
+                </div>
+               </a>
+               <a href="" class="text-decoration-none">
+                <div class="list nav navbar justify-content-between px-4">
+                    <span class="">Books</span>
+                    <span><i class="uil uil-angle-right-b" ></i></span>
+                </div>
+               </a>
+               <a href="" class="text-decoration-none">
+                <div class="list nav navbar justify-content-between px-4">
+                    <span class="">Sports</span>
+                    <span><i class="uil uil-angle-right-b" ></i></span>
+                </div>
+               </a>
+               <a href="" class="text-decoration-none">
+                <div class="list nav navbar justify-content-between px-4">
+                    <span class="">Ebooks</span>
+                    <span><i class="uil uil-angle-right-b" ></i></span>
+                </div>
+               </a>
+               <a href="" class="text-decoration-none">
+                <div class="list nav navbar justify-content-between px-4">
+                    <span class="">Education</span>
+                    <span><i class="uil uil-angle-right-b" ></i></span>
+                </div>
+               </a>
+               <a href="" class="text-decoration-none">
+                <div class="list nav navbar justify-content-between px-4">
+                    <span class="">Education</span>
+                    <span><i class="uil uil-angle-right-b" ></i></span>
+                </div>
+               </a>
+               <a href="" class="text-decoration-none">
+                <div class="list nav navbar justify-content-between px-4">
+                    <span class="">Education</span>
+                    <span><i class="uil uil-angle-right-b" ></i></span>
+                </div>
+               </a>
+               <a href="" class="text-decoration-none">
+                <div class="list nav navbar justify-content-between px-4">
+                    <span class="">Education</span>
+                    <span><i class="uil uil-angle-right-b" ></i></span>
+                </div>
+               </a>
+               <a href="" class="text-decoration-none">
+                <div class="list nav navbar justify-content-between px-4">
+                    <span class="">Education</span>
+                    <span><i class="uil uil-angle-right-b" ></i></span>
+                </div>
+               </a>
+            
+             </div>
+              <div class="close-btn" id="close-btn">
+                <button type="submit"><i class="uil uil-times"></i></button>
+             </div>  
+             
+        </div> -->
+         
+           <!-- right starttt -->
+        <div class="right">
+           <div class="sort-btns nav navbar justify-content-between p-3">
+            <div class="sort"><select name="category" id="category" style="width:170px; height:40px" class="p-2">
+                <option value="default" selected>All Categories <i class="uil uil-angle-down"></i></option>
+                <option value="">Sports</option>
+                <option value="">Sports</option>
+                <option value="">Sports</option>
+                <option value="">Sports</option>
+                <option value="">Sports</option>
+                <option value="">Sports</option>
+                <option value="">Sports</option>
+                <option value="">Sports</option>
+                <option value="">Sports</option>
+                <option value="">Sports</option>
+                <option value="">Sports</option>
+                <option value="">Sports</option>
+                <option value="">Sports</option>
+                <option value="">Sports</option>
+            </select></div>
+            <div class="cart"><button type="menu">Your Cart <i class="uil uil-shopping-cart-alt"></i></button><p id="cartNo">0</p></div>
+           </div>
+            <div class="items nav navbar justify-content-between">
+
+                <div class="item-one p-3">
+                    <center>
+                        <div class="p-img"><img src="image/ball.jpg" alt="" width="160px"></div>
+                    <p class="item-name">Ball</p>
+                    <p class="price">$ 100</p>
+                    </center>
+                </div>
+                <div class="item-one p-3">
+                    <center>
+                        <div class="p-img"><img src="image/popular7.jpg" alt="" width="160px"></div>
+                    <p class="item-name">Ball</p>
+                    <p class="price">$ 100</p>
+                    </center>
+                </div>
+                <div class="item-one p-3">
+                    <center>
+                        <div class="p-img"><img src="image/sport3.jpg" alt="" width="160px"></div>
+                    <p class="item-name">Ball</p>
+                    <p class="price">$ 100</p>
+                    </center>
+                </div>
+                <div class="item-one p-3">
+                    <center>
+                        <div class="p-img"><img src="image/sepak.jpg" alt="" width="160px"></div>
+                    <p class="item-name">Ball</p>
+                    <p class="price">$ 100</p>
+                    </center>
+                </div>
+                <div class="item-one p-3">
+                    <center>
+                        <div class="p-img"><img src="image/game3.jpg" alt="" width="160px"></div>
+                    <p class="item-name">Ball</p>
+                    <p class="price">$ 100</p>
+                    </center>
+                </div>
+                <div class="item-one p-3">
+                    <center>
+                        <div class="p-img"><img src="image/game4.jpg" alt="" width="160px"></div>
+                    <p class="item-name">Ball</p>
+                    <p class="price">$ 100</p>
+                    </center>
+                </div>
+                <div class="item-one p-3">
+                    <center>
+                        <div class="p-img"><img src="image/lux5.jpg" alt="" width="160px"></div>
+                    <p class="item-name">Ball</p>
+                    <p class="price">$ 100</p>
+                    </center>
+                </div>
+                <div class="item-one p-3">
+                    <center>
+                        <div class="p-img"><img src="image/game3.jpg" alt="" width="160px"></div>
+                    <p class="item-name">Ball</p>
+                    <p class="price">$ 100</p>
+                    </center>
+                </div>
+                <div class="item-one p-3">
+                    <center>
+                        <div class="p-img"><img src="image/beauty4.jpg" alt="" width="160px"></div>
+                    <p class="item-name">Ball</p>
+                    <p class="price">$ 100</p>
+                    </center>
+                </div>
+                <div class="item-one p-3">
+                    <center>
+                        <div class="p-img"><img src="image/book2.jpg" alt="" width="160px"></div>
+                    <p class="item-name">Ball</p>
+                    <p class="price">$ 100</p>
+                    </center>
+                </div>
+               
+            </div>
+        </div>
+
+        <!-- right enddd -->
+    </div>
+    <div class="books mt-5" id="books">
+        <!-- Recomanded books for your kids -->
+        <h3 class="text-center">
+            Recomanded books for your kids
+        </h3>
+        <div class="book-list nav navbar navbar-expand-sm justify-content-center">
+             
+                <div class="bookone mx-1 p-3 mt-2">
+                    <center>
+                    <div class="img"><img src="image/book1.jpg" alt="" width="160px"></div>
+                    <strong class="item-name">The Product Book</strong>
+                    <p class="price">$ <span>99</span></p>
+                    <p><i class="uil uil-favorite"></i><i class="uil uil-favorite"></i>
+                    <i class="uil uil-favorite"></i><i class="uil uil-favorite"></i>
+                    <i class="uil uil-favorite"></i>(<span>12</span>)</p>
+                    </center>
+                 </div>
+                 <div class="bookone mx-1 p-3 mt-2">
+                    <center>
+                    <div class="img"><img src="image/book2.jpg" alt="" width="160px"></div>
+                    <strong class="item-name">Mock-Up</strong>
+                    <p class="price">$ <span>99</span></p>
+                    <p><i class="uil uil-favorite"></i><i class="uil uil-favorite"></i>
+                    <i class="uil uil-favorite"></i><i class="uil uil-favorite"></i>
+                    <i class="uil uil-favorite"></i>(<span>52</span>)</p>
+                    </center>
+                 </div>
+                 <div class="bookone mx-1 p-3 mt-2">
+                    <center>
+                    <div class="img"><img src="image/book3.jpg" alt="" width="160px"></div>
+                    <strong class="item-name">Gentle Living</strong>
+                    <p class="price">$ <span>99</span></p>
+                    <p><i class="uil uil-favorite"></i><i class="uil uil-favorite"></i>
+                    <i class="uil uil-favorite"></i><i class="uil uil-favorite"></i>
+                    <i class="uil uil-favorite"></i>(<span>9</span>)</p>
+                    </center>
+                 </div>
+                 <div class="bookone mx-1 p-3 mt-2">
+                    <center>
+                    <div class="img"><img src="image/book4.jpg" alt="" width="160px"></div>
+                    <strong class="item-name">M USD Dogs Brand</strong>
+                    <p class="price">$ <span>99</span></p>
+                    <p><i class="uil uil-favorite"></i><i class="uil uil-favorite"></i>
+                    <i class="uil uil-favorite"></i><i class="uil uil-favorite"></i>
+                    <i class="uil uil-favorite"></i>(<span>21</span>)</p>
+                    </center>
+                 </div>
+                 <div class="bookone mx-1 p-3 mt-2">
+                    <center>
+                    <div class="img"><img src="image/book5.jpg" alt="" width="160px"></div>
+                    <strong class="item-name">The Team</strong>
+                    <p class="price">$ <span>99</span></p>
+                    <p><i class="uil uil-favorite"></i><i class="uil uil-favorite"></i>
+                    <i class="uil uil-favorite"></i><i class="uil uil-favorite"></i>
+                    <i class="uil uil-favorite"></i>(<span>23</span>)</p>
+                    </center>
+                 </div>
+                 <div class="bookone mx-1 p-3 mt-2">
+                    <center>
+                    <div class="img"><img src="image/book6.jpg" alt="" width="160px"></div>
+                    <strong class="item-name">Creating Journal</strong>
+                    <p class="price">$ <span>99</span></p>
+                    <p><i class="uil uil-favorite"></i><i class="uil uil-favorite"></i>
+                    <i class="uil uil-favorite"></i><i class="uil uil-favorite"></i>
+                    <i class="uil uil-favorite"></i>(<span>23</span>)</p>
+                    </center>
+                 </div>
+            
+        </div>
+    </div>
+
+    <!-- book-list endss -->
+
+
+</div>
+ <!-- back home button -->
+
+    <a href="#home-page"  class="text-decoration-none" >  <p class="go-top text-center bg-dark ">
+
+        GO <span class="text-danger">TOP</span> <i class="uil uil-arrow-up"></i></p></a>
+
+        <!-- product modall -->
+        <div class="product-modal" id="product-modal">
+            
+        </div>
+        <!-- footer  -->
+<div class="footer nav navbar p-5">
+    <div class="footerone mt-4">
+        <h3>Your Watchlists</h3>
+        <a href="#home-page">Home</a><br>
+        <a href="shop.html">Shop</a><br>
+        <a href="#">Invest on XORO</a><br>
+        <a href="#">Learn how to use XORO</a><br>
+        <a href="login.html">Create account</a><br>
+        <a href="#">Your orders</a><br>
+        <a href="#"> Your account</a><br>
+        <a href="#">Your points</a><br>
+    </div>
+    <div class="footertwo mt-4">
+        <h3>What You Looking For</h3>
+        <a href="#home-page">Buy products</a><br>
+        <a href="shop.html">Sell products</a><br>
+        <a href="#">Advertise your products</a><br>
+        <a href="#">Check delivery fees</a><br>
+        <a href="#">Creat a community</a><br>
+        <a href="#create-acc">Join community</a><br>
+        <a href="#">Create a pledge programme</a><br>
+        <a href="#">Join a prgramme</a>
+    </div>
+    <div class="footerthree mt-4">
+        <h3>About</h3>
+        <a href="#home-page">About us</a><br>
+        <a href="shop.html">Join us</a><br>
+        <a href="#">Advice us</a><br>
+        <a href="#">Call customers service</a><br>
+        <a href="#">FAQs</a><br>
+        <a href="#">Help</a><br>
+        <a href="#">Feedbacks</a><br>
+        <a href="#">Rate us</a>
+    </div>
+    
+</div>
+<p class="text-center">
+    <a href="#" class="text-decoration-none">Terms of Use ,</a>
+    <a href="#" class="text-decoration-none"> Privacy Policies</a><br>
+    <p class="text-center">Copy Right 2022 &copy; 
+        <a href="#home-page " class="text-decoration-none">XO<span class="text-danger">RO</span></a> Myanmar</p>
+</p>
+<!-- custon js link  -->
+<script src="js/oshop.js"></script>
+<script>
+    $("document").ready(function(){
+    alert("Double click to add to cart");
+});
+</script>
+</body>
+</html>
